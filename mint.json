@@ -1,0 +1,36 @@
+{
+  "name": "QuBit Alpha",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0052FF"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction/introduction",
+        "introduction/what-is-qubit-alpha",
+        "introduction/why-qubit-alpha"
+      ]
+    },
+    {
+      "group": "Advantages",
+      "pages": [
+        "advantages/non-custodial",
+        "advantages/risk-management",
+        "advantages/speed-execution"
+      ]
+    },
+    {
+      "group": "AI Tools",
+      "pages": [
+        "ai-tools/cursor",
+        "ai-tools/claude-code"
+      ]
+    }
+  ]
+}
