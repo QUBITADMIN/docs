@@ -1,122 +1,95 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Qubit Alpha",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#C8F135",
+    "light": "#C8F135",
+    "dark": "#C8F135"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "English",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "introduction/what-is-qubit-alpha",
+              "introduction/why-qubit-alpha",
+              "introduction/who-is-qubit-alpha-for"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Our Advantages",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "advantages/speed-execution",
+              "advantages/non-custodial",
+              "advantages/risk-management",
+              "advantages/transparency"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "User Guide",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "guide/concepts",
+              "guide/quick-start",
+              "guide/asset-management",
+              "guide/copy-trading",
+              "guide/dashboard",
+              "guide/owner-guide",
+              "guide/referral"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "FAQ",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "faq/fees",
+              "faq/security",
+              "faq/troubleshooting",
+              "faq/community"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Updates",
+            "pages": ["changelog"]
+          },
+          {
+            "group": "Legal",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "legal/terms-of-service",
+              "legal/privacy-policy"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+    ]
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://t.me/QuBitDEX"
     }
+  ],
+  "topbarCtaButton": {
+    "name": "Launch App",
+    "url": "https://alpha.qubit.trade"
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+  "anchors": [
+    {
+      "name": "App",
+      "icon": "rocket",
+      "url": "https://alpha.qubit.trade"
+    },
+    {
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://t.me/QuBitDEX"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/QuBitDEX",
+    "telegram": "https://t.me/QuBitDEX"
   }
 }
