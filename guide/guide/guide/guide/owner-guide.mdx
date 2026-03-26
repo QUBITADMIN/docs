@@ -1,0 +1,104 @@
+---
+title: "For Asset Owners"
+description: "Manage Hyperliquid Sub Accounts and delegate to fund managers for Copy Trading"
+---
+
+This guide walks you through managing Hyperliquid Sub Accounts on Qubit Alpha and delegating them to fund managers for Copy Trading.
+
+## Workflow Overview
+
+1. Preparation
+2. Create Sub Account
+3. Import to Qubit Alpha
+4. Assign Manager
+5. Daily Management
+6. Permissions & Security
+
+## Step 1: Preparation
+
+### 1.1 Register Qubit Alpha Account
+
+<Steps>
+  <Step title="Visit Qubit Alpha">
+    Go to [alpha.qubit.trade](https://alpha.qubit.trade)
+  </Step>
+  <Step title="Connect Wallet">
+    Click "Connect Wallet" to connect your main wallet.
+  </Step>
+  <Step title="Sign Verification">
+    Sign the verification message to confirm wallet ownership.
+  </Step>
+  <Step title="Registration Complete">
+    Complete registration and enter the Qubit Alpha platform.
+  </Step>
+</Steps>
+
+### 1.2 Confirm Fund Manager Registration
+
+- Fund manager must be a registered Qubit Alpha user
+- Obtain the fund manager's wallet address
+
+## Step 2: Create Sub Account and API on Hyperliquid
+
+### 2.1 Prerequisites
+
+Creating a Sub Account requires your main account to have reached **100,000 USDC trading volume**.
+
+### 2.2 Create Sub Account
+
+<Steps>
+  <Step title="Visit Hyperliquid">
+    Go to [app.hyperliquid.xyz](https://app.hyperliquid.xyz)
+  </Step>
+  <Step title="Connect Wallet">
+    Connect your main wallet.
+  </Step>
+  <Step title="Navigate to Sub Accounts">
+    Find Sub Accounts in the menu.
+  </Step>
+  <Step title="Create Sub Account">
+    Click Create Sub Account, enter a name and confirm creation.
+  </Step>
+</Steps>
+
+### 2.3 Create API Key for Sub Account
+
+<Steps>
+  <Step title="Enter Sub Account">
+    Select the Sub Account you just created.
+  </Step>
+  <Step title="Create API Key">
+    Click API, create a new API Key.
+  </Step>
+  <Step title="Save Private Key">
+    **Important**: Securely save the private key - it's only shown once.
+  </Step>
+</Steps>
+
+<Warning>
+Each Sub Account must have its own dedicated API Key. One API Key cannot operate multiple Sub Accounts simultaneously due to Nonce mechanism limitations.
+</Warning>
+
+## Step 3: Import Sub Account to Qubit Alpha
+
+<Steps>
+  <Step title="Login to Qubit Alpha">
+    Login with your main wallet.
+  </Step>
+  <Step title="Go to Sub Account Management">
+    Navigate to **Sub Account Management**.
+  </Step>
+  <Step title="Add Sub Account">
+    Click **Add Sub Account**, select your account, enter the API private key.
+  </Step>
+  <Step title="Confirm Import">
+    Qubit Alpha will verify API Key validity and Builder Fee setup status.
+  </Step>
+</Steps>
+
+## Step 4: Assign to Fund Manager
+
+<Steps>
+  <Step title="Go to Sub Account Management">
+    Navigate to Sub Account Management in Qubit Alpha.
+  </Step>

@@ -1,0 +1,44 @@
+---
+title: "Security & Risks"
+description: "Understanding security and risks on Qubit Alpha"
+---
+
+## Security Model
+
+Qubit Alpha is built on a non-custodial model. Your funds are always under your control.
+
+<CardGroup cols={2}>
+  <Card title="Non-Custodial" icon="lock">
+    We never hold your private keys or have withdrawal access to your funds.
+  </Card>
+  <Card title="On-Chain Verification" icon="link">
+    All trades and performance data are verifiable on Hyperliquid's blockchain.
+  </Card>
+  <Card title="Permission-Based" icon="shield-check">
+    API keys only allow trading operations, never fund transfers or withdrawals.
+  </Card>
+  <Card title="Emergency Stop" icon="hand">
+    Revoke access instantly at any time directly on Hyperliquid.
+  </Card>
+</CardGroup>
+
+## Risk Disclosure
+
+| Scenario | Risk | Your Control |
+| --- | --- | --- |
+| Fund manager strategy loss | Capital reduction | Stop Bot, remove assignment |
+| High leverage operation | Liquidation risk | Monitor positions, intervene promptly |
+| API Key leak | Malicious trading only | Revoke API on Hyperliquid immediately |
+| Extreme market conditions | Significant losses | Set stop-loss in advance |
+
+## Security Recommendations
+
+1. **Safely store API private key** - never share with anyone
+2. **Use dedicated API Key for each Sub Account**
+3. **Only assign to trusted fund managers**
+4. **Regularly check trading records**
+5. **If API leak suspected** - immediately revoke on Hyperliquid
+
+<Warning>
+Copy trading involves financial risk. Past performance of traders does not guarantee future results. Never invest more than you can afford to lose.
+</Warning>

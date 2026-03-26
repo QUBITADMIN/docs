@@ -1,0 +1,61 @@
+---
+title: "Troubleshooting"
+description: "Common issues and how to resolve them"
+---
+
+## Common Issues
+
+### Cannot create Sub Account
+
+Main account must reach **100,000 USDC** trading volume on Hyperliquid.
+
+### Import fails with 'Builder Fee not set'
+
+Please set Builder Fee on Qubit Alpha first before importing.
+
+### Cannot find my Sub Account
+
+Confirm you are using the main wallet that created the Sub Account.
+
+### Assignment fails with 'Address not registered'
+
+Fund manager needs to register a Qubit Alpha account first.
+
+### Can fund manager withdraw my funds?
+
+No. API Key has no withdrawal permissions. Only trading operations are permitted.
+
+### Why does each Sub Account need a separate API?
+
+Nonce mechanism limitation — sharing causes trading conflicts.
+
+### Copy trading not executing
+
+<Steps>
+  <Step title="Check Sub Account Balance">
+    Ensure sufficient USDC is available in your sub-account.
+  </Step>
+  <Step title="Verify API Key">
+    Confirm the API key is still valid and not revoked.
+  </Step>
+  <Step title="Check Risk Settings">
+    Make sure your risk limits are not blocking trades.
+  </Step>
+  <Step title="Contact Support">
+    If the issue persists, reach out via [Telegram](https://t.me/QuBitDEX).
+  </Step>
+</Steps>
+
+## Still Need Help?
+
+Contact our support team:
+
+* **Telegram**: [t.me/QuBitDEX](https://t.me/QuBitDEX)
+* **X (Twitter)**: [x.com/QuBitDEX](https://x.com/QuBitDEX)
+```
+
+---
+
+新建文件：
+```
+faq/community.mdx
