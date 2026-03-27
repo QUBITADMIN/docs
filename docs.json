@@ -54,6 +54,11 @@
           {
             "group": "Updates",
             "pages": ["changelog"]
+            {
+  "group": "Community",
+  "pages": ["brand-kit"]
+},
+
           },
           {
             "group": "Legal",
