@@ -3,163 +3,131 @@
   "theme": "mint",
   "name": "Qubit Alpha",
   "colors": {
-  "primary": "#2961FF",
-  "light": "#2961FF",
-  "dark": "#2961FF"
-},
+    "primary": "#2961FF",
+    "light": "#2961FF",
+    "dark": "#2961FF"
+  },
   "favicon": "/favicon.svg",
- "navigation": {
-  "tabs": [
-    {
-      "tab": "English",
-      "groups": [
-        {
-          "group": "Introduction",
-          "icon": "book-open",
-          "pages": [
-            {
-              "page": "introduction/what-is-qubit-alpha",
-              "icon": "circle-info"
-            },
-            {
-              "page": "introduction/why-qubit-alpha",
-              "icon": "lightbulb"
-            },
-            {
-              "page": "introduction/who-is-qubit-alpha-for",
-              "icon": "users"
-            }
-          ]
-        },
-        {
-          "group": "Our Advantages",
-          "icon": "star",
-          "pages": [
-            {
-              "page": "advantages/speed-execution",
-              "icon": "bolt"
-            },
-            {
-              "page": "advantages/non-custodial",
-              "icon": "shield"
-            },
-            {
-              "page": "advantages/risk-management",
-              "icon": "shield-halved"
-            },
-            {
-              "page": "advantages/transparency",
-              "icon": "eye"
-            }
-          ]
-        },
-        {
-          "group": "User Guide",
-          "icon": "map",
-          "pages": [
-            {
-              "page": "guide/concepts",
-              "icon": "list"
-            },
-            {
-              "page": "guide/quick-start",
-              "icon": "rocket"
-            },
-            {
-              "page": "guide/asset-management",
-              "icon": "wallet"
-            },
-            {
-              "page": "guide/copy-trading",
-              "icon": "copy"
-            },
-            {
-              "page": "guide/dashboard",
-              "icon": "chart-line"
-            },
-            {
-              "page": "guide/owner-guide",
-              "icon": "user-gear"
-            },
-            {
-              "page": "guide/referral",
-              "icon": "users"
-            }
-          ]
-        },
-        {
-          "group": "FAQ",
-          "icon": "circle-question",
-          "pages": [
-            {
-              "page": "faq/fees",
-              "icon": "receipt"
-            },
-            {
-              "page": "faq/security",
-              "icon": "triangle-exclamation"
-            },
-            {
-              "page": "faq/troubleshooting",
-              "icon": "wrench"
-            },
-            {
-              "page": "faq/community",
-              "icon": "users"
-            }
-          ]
-        },
-        {
-          "group": "Updates",
-          "icon": "sparkles",
-          "pages": [
-            {
-              "page": "changelog",
-              "icon": "list"
-            }
-          ]
-        },
-        {
-          "group": "Community",
-          "icon": "folder",
-          "pages": [
-            {
-              "page": "brand-kit",
-              "icon": "palette"
-            }
-          ]
-        },
-        {
-          "group": "Legal",
-          "icon": "shield",
-          "pages": [
-            {
-              "page": "legal/terms-of-service",
-              "icon": "file-lines"
-            },
-            {
-              "page": "legal/privacy-policy",
-              "icon": "shield-check"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "tab": "中文",
-      "groups": [
-        {
-          "group": "介绍",
-          "pages": [
-            "zh/introduction/what-is-qubit-alpha",
-            "zh/introduction/why-qubit-alpha",
-            "zh/introduction/who-is-qubit-alpha-for"
-          ]
-        }
-      ]
-    }
-  ]
-}
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "English",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "introduction/what-is-qubit-alpha",
+              "introduction/why-qubit-alpha",
+              "introduction/who-is-qubit-alpha-for"
+            ]
+          },
+          {
+            "group": "Our Advantages",
+            "pages": [
+              "advantages/speed-execution",
+              "advantages/non-custodial",
+              "advantages/risk-management",
+              "advantages/transparency"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "pages": [
+              "guide/concepts",
+              "guide/quick-start",
+              "guide/asset-management",
+              "guide/copy-trading",
+              "guide/dashboard",
+              "guide/owner-guide",
+              "guide/referral"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "faq/fees",
+              "faq/security",
+              "faq/troubleshooting",
+              "faq/community"
+            ]
+          },
+          {
+            "group": "Updates",
+            "pages": ["changelog"]
+          },
+          {
+            "group": "Community",
+            "pages": ["brand-kit"]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/terms-of-service",
+              "legal/privacy-policy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "中文",
+        "groups": [
+          {
+            "group": "介绍",
+            "pages": [
+              "zh/introduction/what-is-qubit-alpha",
+              "zh/introduction/why-qubit-alpha",
+              "zh/introduction/who-is-qubit-alpha-for"
+            ]
+          },
+          {
+            "group": "我们的优势",
+            "pages": [
+              "zh/advantages/speed-execution",
+              "zh/advantages/non-custodial",
+              "zh/advantages/risk-management",
+              "zh/advantages/transparency"
+            ]
+          },
+          {
+            "group": "用户指南",
+            "pages": [
+              "zh/guide/concepts",
+              "zh/guide/quick-start",
+              "zh/guide/asset-management",
+              "zh/guide/copy-trading",
+              "zh/guide/dashboard",
+              "zh/guide/owner-guide",
+              "zh/guide/referral"
+            ]
+          },
+          {
+            "group": "常见问题",
+            "pages": [
+              "zh/faq/fees",
+              "zh/faq/security",
+              "zh/faq/troubleshooting",
+              "zh/faq/community"
+            ]
+          },
+          {
+            "group": "更新日志",
+            "pages": ["zh/changelog"]
+          },
+          {
+            "group": "社区",
+            "pages": ["zh/brand-kit"]
+          },
+          {
+            "group": "法律",
+            "pages": [
+              "zh/legal/terms-of-service",
+              "zh/legal/privacy-policy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "topbarLinks": [
     {
       "name": "Support",
