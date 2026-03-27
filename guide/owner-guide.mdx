@@ -247,8 +247,76 @@ Go to **Sub Account Management** to view all accounts, including positions, P&L,
 <Warning>
 API Key can only perform trading operations, cannot transfer or withdraw funds. API Key leakage will not result in funds being transferred away.
 </Warning>
-```
+### Fund Manager Permissions
 
-`Ctrl+S` 保存，提交描述：
-```
-complete owner guide content
+After assignment, fund managers can:
+
+| Operation | Permission |
+| --- | --- |
+| Configure and start/stop Copy Trade Bot | ✅ Allowed |
+| View positions and P&L | ✅ Allowed |
+| Withdraw or transfer funds | ❌ Not Allowed |
+| Modify account settings | ❌ Not Allowed |
+| Assign to others | ❌ Not Allowed |
+
+### Security Recommendations
+
+<Warning>
+  1. **Safely store API private key** - never share with anyone
+</Warning>
+<Warning>
+  2. **Use dedicated API Key for each Sub Account**
+</Warning>
+<Warning>
+  3. **Only assign to trusted fund managers**
+</Warning>
+<Warning>
+  4. **Regularly check trading records** - stop Bot immediately if anomalies detected
+</Warning>
+<Warning>
+  5. **If API leak suspected** - immediately revoke on Hyperliquid
+</Warning>
+
+## Risk Disclosure
+
+| Scenario | Risk | Your Control |
+| --- | --- | --- |
+| Fund manager strategy loss | Capital reduction | Stop Bot, remove assignment |
+| High leverage operation | Liquidation risk | Monitor positions, intervene promptly |
+| API Key leak | Malicious trading | Revoke API on Hyperliquid |
+| Extreme market conditions | Significant losses | Set stop-loss in advance |
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="Cannot create Sub Account">
+    Main account must reach 100,000 USDC trading volume.
+  </Accordion>
+  <Accordion title="Import fails with 'Builder Fee not set'">
+    Please set Builder Fee on Qubit Alpha first.
+  </Accordion>
+  <Accordion title="Cannot find my Sub Account">
+    Confirm you're using the main wallet that created the Sub Account.
+  </Accordion>
+  <Accordion title="Assignment fails with 'Address not registered'">
+    Fund manager needs to register a Qubit Alpha account first.
+  </Accordion>
+  <Accordion title="Can fund manager withdraw my funds?">
+    No, API Key has no withdrawal permissions.
+  </Accordion>
+  <Accordion title="Why does each Sub Account need a separate API?">
+    Nonce mechanism limitation - sharing causes trading conflicts.
+  </Accordion>
+</AccordionGroup>
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card title="Asset Management" icon="wallet" href="/guide/asset-management">
+    Learn how to manage deposits and withdrawals.
+  </Card>
+  <Card title="Dashboard" icon="chart-bar" href="/guide/dashboard">
+    Understand your portfolio and performance metrics.
+  </Card>
+</CardGroup>
+
