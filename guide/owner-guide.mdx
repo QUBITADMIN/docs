@@ -35,15 +35,21 @@ This guide walks you through managing Hyperliquid Sub Accounts on Qubit Alpha an
 
 ### 1.2 Confirm Fund Manager Registration
 
-- Fund manager must be a registered Qubit Alpha user
-- Obtain the fund manager's wallet address
-
-## Step 2: Create Sub Account and API on Hyperliquid
+<Check>
+  Fund manager must be a registered Qubit Alpha user
+</Check>
+<Check>
+  Obtain the fund manager's wallet address
+</Check>
+<Warning>
+  If the fund manager is not registered, the assignment will fail.
+</Warning>
 
 ### 2.1 Prerequisites
 
-Creating a Sub Account requires your main account to have reached **100,000 USDC trading volume**.
-
+<Note>
+  Creating a Sub Account requires your main account to have reached **100,000 USDC trading volume**.
+</Note>
 ### 2.2 Create Sub Account
 
 <Steps>
@@ -76,8 +82,28 @@ Creating a Sub Account requires your main account to have reached **100,000 USDC
 </Steps>
 
 <Warning>
-Each Sub Account must have its own dedicated API Key. One API Key cannot operate multiple Sub Accounts simultaneously due to Nonce mechanism limitations.
+**Each Sub Account must have its own API Key!** While one API Key can technically operate all Sub Accounts, due to Nonce mechanism limitations, one API Key cannot operate multiple Sub Accounts simultaneously, otherwise trading conflicts will occur. Qubit Alpha requires: **One Sub Account = One dedicated API Key**.
 </Warning>
+### 2.4 Set Up Builder Fee
+
+<Steps>
+  <Step title="Visit Settings Page">
+    Go to Qubit Alpha Builder Fee Settings page.
+  </Step>
+  <Step title="Connect Wallet">
+    Connect your main wallet.
+  </Step>
+  <Step title="Complete Authorization">
+    Follow the on-page instructions to complete Builder Fee authorization.
+  </Step>
+</Steps>
+
+<Warning>
+  If Builder Fee is not set, import validation will fail.
+</Warning>
+```
+
+---
 
 ## Step 3: Import Sub Account to Qubit Alpha
 
