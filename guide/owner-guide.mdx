@@ -106,39 +106,125 @@ This guide walks you through managing Hyperliquid Sub Accounts on Qubit Alpha an
 
 ## Step 3: Import Sub Account to Qubit Alpha
 
+### 3.1 Access Add Page
+
 <Steps>
   <Step title="Login to Qubit Alpha">
-    Login with your main wallet.
+    Login to Qubit Alpha with your main wallet.
   </Step>
   <Step title="Go to Sub Account Management">
     Navigate to **Sub Account Management**.
   </Step>
   <Step title="Add Sub Account">
-    Click **Add Sub Account**, select your account, enter the API private key.
-  </Step>
-  <Step title="Confirm Import">
-    Qubit Alpha will verify API Key validity and Builder Fee setup status.
+    Click **Add Sub Account**.
   </Step>
 </Steps>
+
+### 3.2 Select Sub Account
+
+Qubit Alpha will automatically fetch your Sub Account list. Select the Sub Account you want to import.
+
+### 3.3 Enter API Key
+
+<Steps>
+  <Step title="Enter Private Key">
+    Enter the API private key you created on Hyperliquid.
+  </Step>
+  <Step title="Set Display Name">
+    Set a display name for this account.
+  </Step>
+</Steps>
+
+### 3.4 Confirm Import
+
+Qubit Alpha will verify:
+* API Key validity
+* Builder Fee setup status
+
+Once verified, import is complete.
 
 ## Step 4: Assign to Fund Manager
 
 <Steps>
   <Step title="Go to Sub Account Management">
-    Navigate to Sub Account Management in Qubit Alpha.
+    Navigate to **Sub Account Management** in Qubit Alpha.
   </Step>
   <Step title="Select Sub Account">
     Choose the Sub Account to assign.
   </Step>
   <Step title="Assign Fund Manager">
-    Click **Assign Fund Manager** and enter the fund manager's wallet address.
+    Click **Assign Fund Manager**.
+  </Step>
+  <Step title="Enter Address">
+    Enter the fund manager's wallet address.
   </Step>
   <Step title="Confirm Assignment">
     Confirm the assignment.
   </Step>
 </Steps>
 
+<Note>
+If the fund manager hasn't registered on Qubit Alpha, assignment will fail with "Address not registered" message.
+</Note>
+
+## Step 5: Daily Management
+
+### View Account Status
+
+Go to **Sub Account Management** to view all accounts, including positions, P&L, and Bot running status.
+
+### Stop Bot
+
+<Steps>
+  <Step title="Select Account">
+    Select the Sub Account.
+  </Step>
+  <Step title="Stop Bot">
+    Click **Stop Bot**.
+  </Step>
+  <Step title="Complete">
+    Bot will stop executing new trades.
+  </Step>
+</Steps>
+
+### Remove Fund Manager Assignment
+
+<Steps>
+  <Step title="Select Account">
+    Select the Sub Account.
+  </Step>
+  <Step title="Remove Assignment">
+    Click **Remove Assignment**.
+  </Step>
+  <Step title="Confirm">
+    After confirmation, fund manager loses management permissions and associated Bots will automatically stop.
+  </Step>
+</Steps>
+
+### Emergency Revocation (On-chain)
+
+<Steps>
+  <Step title="Visit Hyperliquid">
+    Go to [Hyperliquid](https://app.hyperliquid.xyz).
+  </Step>
+  <Step title="Enter Sub Account">
+    Navigate to the corresponding Sub Account.
+  </Step>
+  <Step title="Revoke API">
+    Delete/revoke the API Key.
+  </Step>
+</Steps>
+
 ## Permissions & Security
+
+### API Key Technical Limitations
+
+| Limitation | Description |
+| --- | --- |
+| **Scope** | API Key can sign operations for main account and all Sub Accounts |
+| **Nonce Mechanism** | Each API Key uses an independent Nonce sequence |
+| **Concurrency Limit** | One API Key cannot operate multiple Sub Accounts simultaneously (Nonce conflict) |
+| **Qubit Alpha Requirement** | Each Sub Account must use a dedicated API Key |
 
 ### API Key Permissions
 
@@ -162,3 +248,7 @@ This guide walks you through managing Hyperliquid Sub Accounts on Qubit Alpha an
 API Key can only perform trading operations, cannot transfer or withdraw funds. API Key leakage will not result in funds being transferred away.
 </Warning>
 ```
+
+`Ctrl+S` 保存，提交描述：
+```
+complete owner guide content
