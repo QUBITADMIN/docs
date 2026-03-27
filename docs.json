@@ -52,9 +52,11 @@
             ]
           },
           {
-            "group": "Updates",
-            "pages": ["changelog"]
-            {
+           {
+  "group": "Updates",
+  "pages": ["changelog"]
+},
+{
   "group": "Community",
   "pages": ["brand-kit"]
 },
