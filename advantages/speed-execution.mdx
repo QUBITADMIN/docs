@@ -29,7 +29,22 @@ In copy trading, every millisecond counts. The delay between the original trade 
     Native integration with Hyperliquid's order matching engine.
   </Card>
 </CardGroup>
+## Optimized Infrastructure
 
+To minimize network latency, we conducted extensive evaluations across multiple geographic regions and major cloud service platforms.
+
+* **Multi-Region Testing**: We benchmarked various cloud providers, including AWS, Google Cloud, and Azure, measuring access latency to Hyperliquid's nodes from different global locations.
+* **Top-Tier Selection**: After thousands of cross-regional stress tests, we selected the server configuration that delivers the fastest trade execution, ensuring maximum physical throughput and minimal hardware-level latency.
+
+## High-Performance SDK
+
+To achieve extreme execution efficiency, our team developed and open-sourced a high-performance SDK: **async-hyperliquid**.
+
+* **Microsecond Performance**: Compared to the 1,000ms+ latency of the official SDK, we've improved order execution speed to the microsecond level.
+* **Superior Throughput**: Concurrency capacity is approximately **15x** higher than the official SDK.
+* **Advanced Order Support**: Native support for advanced order types, including **TP/SL (Take Profit/Stop Loss)** and **TWAP (Time-Weighted Average Price)**.
+* **Full Protocol Support**: Comprehensive support for **HIP-3**.
+* **Instant New Asset Support**: High-performance local caching with automatic updates for immediate support of new assets.
 ## SDK Performance Benchmarks
 
 | Operation | Official SDK | Qubit Alpha | Improvement |
