@@ -102,3 +102,38 @@ Each Sub Account must have its own dedicated API Key. One API Key cannot operate
   <Step title="Go to Sub Account Management">
     Navigate to Sub Account Management in Qubit Alpha.
   </Step>
+  <Step title="Select Sub Account">
+    Choose the Sub Account to assign.
+  </Step>
+  <Step title="Assign Fund Manager">
+    Click **Assign Fund Manager** and enter the fund manager's wallet address.
+  </Step>
+  <Step title="Confirm Assignment">
+    Confirm the assignment.
+  </Step>
+</Steps>
+
+## Permissions & Security
+
+### API Key Permissions
+
+| Permission | Status |
+| --- | --- |
+| Trading (open/close orders) | ✅ Allowed |
+| Leverage Adjustment | ✅ Allowed |
+| Internal Transfer | ❌ Not Allowed |
+| Withdrawal | ❌ Not Allowed |
+
+### Fund Manager Permissions
+
+| Operation | Permission |
+| --- | --- |
+| Configure and start/stop Copy Trade Bot | ✅ Allowed |
+| View positions and P&L | ✅ Allowed |
+| Withdraw or transfer funds | ❌ Not Allowed |
+| Modify account settings | ❌ Not Allowed |
+
+<Warning>
+API Key can only perform trading operations, cannot transfer or withdraw funds. API Key leakage will not result in funds being transferred away.
+</Warning>
+```
