@@ -52,15 +52,12 @@
             ]
           },
           {
-           {
-  "group": "Updates",
-  "pages": ["changelog"]
-},
-{
-  "group": "Community",
-  "pages": ["brand-kit"]
-},
-
+            "group": "Updates",
+            "pages": ["changelog"]
+          },
+          {
+            "group": "Community",
+            "pages": ["brand-kit"]
           },
           {
             "group": "Legal",
