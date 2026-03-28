@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "mint",
   "name": "Qubit Alpha",
   "colors": {
     "primary": "#2961FF",
@@ -156,3 +156,4 @@
     "x": "https://x.com/QuBitDEX",
     "telegram": "https://t.me/QuBitDEX"
   }
+}
