@@ -8,10 +8,10 @@
     "dark": "#2961FF"
   },
   "favicon": "/favicon.svg",
- "logo": {
-  "dark": "/images/LOGO-QUBITDEX-整体LOGO-渐变.png",
-  "light": "/images/LOGO-QUBITDEX-整体LOGO-黑.png"
-},
+  "logo": {
+    "dark": "/images/LOGO-QUBITDEX-整体LOGO-渐变.png",
+    "light": "/images/LOGO-QUBITDEX-整体LOGO-黑.png"
+  },
   "navigation": {
     "tabs": [
       {
@@ -146,19 +146,23 @@
       }
     ]
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "https://t.me/QuBitDEX"
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://t.me/QuBitDEX"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Launch App",
+      "href": "https://alpha.qubit.trade"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Launch App",
-    "url": "https://alpha.qubit.trade"
   },
   "footer": {
-  "socials": {
-    "x": "https://x.com/QuBitDEX",
-    "telegram": "https://t.me/QuBitDEX"
+    "socials": {
+      "x": "https://x.com/QuBitDEX",
+      "telegram": "https://t.me/QuBitDEX"
+    }
   }
 }
