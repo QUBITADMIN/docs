@@ -156,7 +156,8 @@
     "name": "Launch App",
     "url": "https://alpha.qubit.trade"
   },
-  "footerSocials": {
+  "footer": {
+  "socials": {
     "x": "https://x.com/QuBitDEX",
     "telegram": "https://t.me/QuBitDEX"
   }
