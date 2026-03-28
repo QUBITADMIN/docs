@@ -1,36 +1,26 @@
 {
-  "name": "QuBit Alpha",
-  "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
-  },
-  "favicon": "/favicon.png",
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Qubit Alpha",
   "colors": {
-    "primary": "#0052FF"
+    "primary": "#2961FF",
+    "light": "#2961FF",
+    "dark": "#2961FF",
+    "anchors": {
+      "from": "#2961FF",
+      "to": "#2961FF"
+    }
   },
-  "navigation": [
+  "favicon": "/favicon.svg",
+  "anchors": [
     {
-      "group": "Getting Started",
-      "pages": [
-        "introduction/introduction",
-        "introduction/what-is-qubit-alpha",
-        "introduction/why-qubit-alpha"
-      ]
+      "name": "App",
+      "icon": "rocket",
+      "url": "https://alpha.qubit.trade"
     },
     {
-      "group": "Advantages",
-      "pages": [
-        "advantages/non-custodial",
-        "advantages/risk-management",
-        "advantages/speed-execution"
-      ]
-    },
-    {
-      "group": "AI Tools",
-      "pages": [
-        "ai-tools/cursor",
-        "ai-tools/claude-code"
-      ]
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://t.me/QuBitDEX"
     }
   ]
 }
