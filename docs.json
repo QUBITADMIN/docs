@@ -8,9 +8,9 @@
     "dark": "#2961FF"
   },
   "favicon": "/favicon.svg",
-  "logo": {
-  "dark": "/images/LOGO-QUBITDEX-文字LOGO-白.png",
-  "light": "/images/LOGO-QUBITDEX-文字LOGO-黑.png"
+ "logo": {
+  "dark": "/images/LOGO-QUBITDEX-整体LOGO-渐变.png",
+  "light": "/images/LOGO-QUBITDEX-整体LOGO-黑.png"
 },
   "navigation": {
     "tabs": [
