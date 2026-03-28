@@ -162,7 +162,8 @@
   "footer": {
     "socials": {
       "x": "https://x.com/QuBitDEX",
-      "telegram": "https://t.me/QuBitDEX"
+      "telegram": "https://t.me/QuBitDEX",
+      "github": "https://github.com/qubitdex"
     }
   }
 }
