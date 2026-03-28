@@ -9,23 +9,21 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
-      {
-        "anchor": "App",
-        "icon": "rocket",
-        "href": "https://alpha.qubit.trade",
-        "color": "#2961FF"
-      },
-      {
-        "anchor": "Telegram",
-        "icon": "telegram",
-        "href": "https://t.me/QuBitDEX",
-        "color": "#2961FF"
-      }
-    ],
     "tabs": [
       {
         "tab": "English",
+        "anchors": [
+          {
+            "anchor": "App",
+            "icon": "rocket",
+            "href": "https://alpha.qubit.trade"
+          },
+          {
+            "anchor": "Telegram",
+            "icon": "telegram",
+            "href": "https://t.me/QuBitDEX"
+          }
+        ],
         "groups": [
           {
             "group": "Introduction",
@@ -91,6 +89,18 @@
       },
       {
         "tab": "中文",
+        "anchors": [
+          {
+            "anchor": "App",
+            "icon": "rocket",
+            "href": "https://alpha.qubit.trade"
+          },
+          {
+            "anchor": "Telegram",
+            "icon": "telegram",
+            "href": "https://t.me/QuBitDEX"
+          }
+        ],
         "groups": [
           {
             "group": "产品介绍",
