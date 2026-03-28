@@ -1,1 +1,158 @@
-{}
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "linden",
+  "name": "Qubit Alpha",
+  "colors": {
+    "primary": "#2961FF",
+    "light": "#2961FF",
+    "dark": "#2961FF"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "English",
+        "groups": [
+          {
+            "group": "Introduction",
+            "icon": "book-open",
+            "pages": [
+              "introduction/what-is-qubit-alpha",
+              "introduction/why-qubit-alpha",
+              "introduction/who-is-qubit-alpha-for"
+            ]
+          },
+          {
+            "group": "Our Advantages",
+            "icon": "star",
+            "pages": [
+              "advantages/speed-execution",
+              "advantages/non-custodial",
+              "advantages/risk-management",
+              "advantages/transparency"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "icon": "map",
+            "pages": [
+              "guide/concepts",
+              "guide/quick-start",
+              "guide/asset-management",
+              "guide/copy-trading",
+              "guide/dashboard",
+              "guide/owner-guide",
+              "guide/referral"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "icon": "circle-question",
+            "pages": [
+              "faq/fees",
+              "faq/security",
+              "faq/troubleshooting",
+              "faq/community"
+            ]
+          },
+          {
+            "group": "Updates",
+            "icon": "sparkles",
+            "pages": ["changelog"]
+          },
+          {
+            "group": "Community",
+            "icon": "folder-open",
+            "pages": ["brand-kit"]
+          },
+          {
+            "group": "Legal",
+            "icon": "shield",
+            "pages": [
+              "legal/terms-of-service",
+              "legal/privacy-policy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "中文",
+        "groups": [
+          {
+            "group": "产品介绍",
+            "icon": "book-open",
+            "pages": [
+              "zh/introduction/what-is-qubit-alpha",
+              "zh/introduction/why-qubit-alpha",
+              "zh/introduction/who-is-qubit-alpha-for"
+            ]
+          },
+          {
+            "group": "核心优势",
+            "icon": "star",
+            "pages": [
+              "zh/advantages/speed-execution",
+              "zh/advantages/non-custodial",
+              "zh/advantages/risk-management",
+              "zh/advantages/transparency"
+            ]
+          },
+          {
+            "group": "操作指南",
+            "icon": "map",
+            "pages": [
+              "zh/guide/concepts",
+              "zh/guide/quick-start",
+              "zh/guide/asset-management",
+              "zh/guide/copy-trading",
+              "zh/guide/dashboard",
+              "zh/guide/owner-guide",
+              "zh/guide/referral"
+            ]
+          },
+          {
+            "group": "常见问题",
+            "icon": "circle-question",
+            "pages": [
+              "zh/faq/fees",
+              "zh/faq/security",
+              "zh/faq/troubleshooting",
+              "zh/faq/community"
+            ]
+          },
+          {
+            "group": "更新动态",
+            "icon": "sparkles",
+            "pages": ["zh/changelog"]
+          },
+          {
+            "group": "社区中心",
+            "icon": "folder-open",
+            "pages": ["zh/brand-kit"]
+          },
+          {
+            "group": "法律",
+            "icon": "shield",
+            "pages": [
+              "zh/legal/terms-of-service",
+              "zh/legal/privacy-policy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://t.me/QuBitDEX"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Launch App",
+    "url": "https://alpha.qubit.trade"
+  },
+  "footerSocials": {
+    "x": "https://x.com/QuBitDEX",
+    "telegram": "https://t.me/QuBitDEX"
+  }
