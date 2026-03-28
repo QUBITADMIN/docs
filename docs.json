@@ -15,6 +15,7 @@
         "groups": [
           {
             "group": "Introduction",
+            "icon": "book-open",
             "pages": [
               "introduction/what-is-qubit-alpha",
               "introduction/why-qubit-alpha",
@@ -23,6 +24,7 @@
           },
           {
             "group": "Our Advantages",
+            "icon": "star",
             "pages": [
               "advantages/speed-execution",
               "advantages/non-custodial",
@@ -32,6 +34,7 @@
           },
           {
             "group": "User Guide",
+            "icon": "map",
             "pages": [
               "guide/concepts",
               "guide/quick-start",
@@ -44,6 +47,7 @@
           },
           {
             "group": "FAQ",
+            "icon": "circle-question",
             "pages": [
               "faq/fees",
               "faq/security",
@@ -53,14 +57,17 @@
           },
           {
             "group": "Updates",
+            "icon": "sparkles",
             "pages": ["changelog"]
           },
           {
             "group": "Community",
+            "icon": "folder-open",
             "pages": ["brand-kit"]
           },
           {
             "group": "Legal",
+            "icon": "shield",
             "pages": [
               "legal/terms-of-service",
               "legal/privacy-policy"
@@ -73,6 +80,7 @@
         "groups": [
           {
             "group": "介绍",
+            "icon": "book-open",
             "pages": [
               "zh/introduction/what-is-qubit-alpha",
               "zh/introduction/why-qubit-alpha",
@@ -81,6 +89,7 @@
           },
           {
             "group": "我们的优势",
+            "icon": "star",
             "pages": [
               "zh/advantages/speed-execution",
               "zh/advantages/non-custodial",
@@ -90,6 +99,7 @@
           },
           {
             "group": "用户指南",
+            "icon": "map",
             "pages": [
               "zh/guide/concepts",
               "zh/guide/quick-start",
@@ -102,6 +112,7 @@
           },
           {
             "group": "常见问题",
+            "icon": "circle-question",
             "pages": [
               "zh/faq/fees",
               "zh/faq/security",
@@ -111,14 +122,17 @@
           },
           {
             "group": "更新日志",
+            "icon": "sparkles",
             "pages": ["zh/changelog"]
           },
           {
             "group": "社区",
+            "icon": "folder-open",
             "pages": ["zh/brand-kit"]
           },
           {
             "group": "法律",
+            "icon": "shield",
             "pages": [
               "zh/legal/terms-of-service",
               "zh/legal/privacy-policy"
