@@ -9,6 +9,20 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "anchors": [
+      {
+        "anchor": "App",
+        "icon": "rocket",
+        "href": "https://alpha.qubit.trade",
+        "color": "#2961FF"
+      },
+      {
+        "anchor": "Telegram",
+        "icon": "telegram",
+        "href": "https://t.me/QuBitDEX",
+        "color": "#2961FF"
+      }
+    ],
     "tabs": [
       {
         "tab": "English",
@@ -79,7 +93,7 @@
         "tab": "中文",
         "groups": [
           {
-            "group": "介绍",
+            "group": "产品介绍",
             "icon": "book-open",
             "pages": [
               "zh/introduction/what-is-qubit-alpha",
@@ -88,7 +102,7 @@
             ]
           },
           {
-            "group": "我们的优势",
+            "group": "核心优势",
             "icon": "star",
             "pages": [
               "zh/advantages/speed-execution",
@@ -98,7 +112,7 @@
             ]
           },
           {
-            "group": "用户指南",
+            "group": "操作指南",
             "icon": "map",
             "pages": [
               "zh/guide/concepts",
@@ -121,12 +135,12 @@
             ]
           },
           {
-            "group": "更新日志",
+            "group": "更新动态",
             "icon": "sparkles",
             "pages": ["zh/changelog"]
           },
           {
-            "group": "社区",
+            "group": "社区中心",
             "icon": "folder-open",
             "pages": ["zh/brand-kit"]
           },
@@ -152,18 +166,6 @@
     "name": "Launch App",
     "url": "https://alpha.qubit.trade"
   },
-  "anchors": [
-    {
-      "name": "App",
-      "icon": "rocket",
-      "url": "https://alpha.qubit.trade"
-    },
-    {
-      "name": "Telegram",
-      "icon": "telegram",
-      "url": "https://t.me/QuBitDEX"
-    }
-  ],
   "footerSocials": {
     "x": "https://x.com/QuBitDEX",
     "telegram": "https://t.me/QuBitDEX"
